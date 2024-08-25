@@ -18,10 +18,6 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 nav {
@@ -122,10 +118,6 @@ nav button {
     padding: 20px
 }
 
-/* .section1Bottom img{
-    height: 60px;
-} */
-
 .imgAmazon {
     height: 40px;
 }
@@ -149,8 +141,6 @@ nav button {
 .imgZoom {
     height: 50px;
 }
-
-
 
 .section2 .services {
     display: flex;

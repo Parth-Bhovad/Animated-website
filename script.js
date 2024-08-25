@@ -48,7 +48,6 @@ let tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: ".section2",
         scroller: "body",
-        markers: true,
         start: "top 50%",
         end: "top 0",
         scrub: 5
@@ -59,13 +58,6 @@ tl2.from(".services h3, .services p", {
     x: -100,
     opacity: 0,
     duration: 0.5,
-    // scrollTrigger:{
-    //     trigger:".services h3",
-    //     scroller:"body",
-    //     markers:true,
-    //     start:"top 50%",
-    //     scrub:5
-    // }
 })
 
 tl2.from("#right1", {

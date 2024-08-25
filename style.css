@@ -10,7 +10,7 @@ body {
     width: 100vw;
 }
 
-.body {
+body {
     overflow-x: hidden;
 }
 
@@ -251,6 +251,7 @@ nav button {
 
 #page2 {
     margin: 2vw 0;
+    overflow: hidden;
 }
 
 #move {

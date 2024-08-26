@@ -61,25 +61,25 @@ tl2.from(".services h3, .services p", {
 })
 
 tl2.from("#right1", {
-    x: "-30",
+    x: "-300",
     opacity: 0,
     duration: 1
 }, "line1")
 
 tl2.from("#left1", {
-    x: "30",
+    x: "300",
     opacity: 0,
     duration: 1
 }, "line1")
 
 tl2.from("#right2", {
-    x: "-30",
+    x: "-300",
     opacity: 0,
     duration: 1
 }, "line2")
 
 tl2.from("#left2", {
-    x: "30",
+    x: "300",
     opacity: 0,
     duration: 1
 }, "line2")
